@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="dashboard balance">
+      <div class="balance">
+        <p class="total-text">My balance</p>
+        <h2 class="balance-value">$921.48</h2>
+      </div>
+      <img src="images/logo.svg" alt="logo" />
+    </div>
+    <div class="data">
+      <h2 class="data-text">Spending - Last 7 days</h2>
+      <div class="data-chart">
+        <div class="mon-box box" id="mon" tabindex="0">
+          <span class="price"></span>
+          <div class="mon chart"></div>
+          <p class="text-smaller text">mon</p>
+        </div>
+
+        <div class="tue-box box" id="tue" tabindex="0">
+          <span class="price"></span>
+          <div class="tue chart"></div>
+          <p class="text-smaller text">tue</p>
+        </div>
+
+        <div class="wed-box box" id="wed" tabindex="0">
+          <span class="price"></span>
+          <div class="wed chart"></div>
+          <p class="text-smaller text">wed</p>
+        </div>
+
+        <div class="thu-box box" id="thu" tabindex="0">
+          <span class="price"></span>
+          <div class="thu chart"></div>
+          <p class="text-smaller text">thu</p>
+        </div>
+
+        <div class="fri-box box" id="fri" tabindex="0">
+          <span class="price"></span>
+          <div class="fri chart"></div>
+          <p class="text-smaller text">fri</p>
+        </div>
+
+        <div class="sat-box box" id="sat" tabindex="0">
+          <span class="price"></span>
+          <div class="sat chart"></div>
+          <p class="text-smaller text">sat</p>
+        </div>
+
+        <div class="sun-box box" id="sun" tabindex="0">
+          <span class="price"></span>
+          <div class="sun chart"></div>
+          <p class="text-smaller text">sun</p>
+        </div>
+      </div>
+      <div class="last">
+        <div class="balance">
+          <p class="total-text">Total this month</p>
+          <h1 class="total-spend">$478.33</h1>
+        </div>
+        <div class="percentage">
+          <p class="bold-text">+2.4%</p>
+          <p class="text">from last month</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Muili Bilal</a>.
+    </div>
+  </body>
+</html>
